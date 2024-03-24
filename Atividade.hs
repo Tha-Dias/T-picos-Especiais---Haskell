@@ -1,4 +1,4 @@
 {- Atividades - Tópico Especiais -}
 
-somar :: int -> int -> int
+somar :: Int -> Int -> Int
 somar x y = y + x
