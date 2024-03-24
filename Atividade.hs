@@ -49,3 +49,4 @@ listaG = [x | x <- [2, 4..30], x `notElem` [20]] {- `notElem`retira i=o valor de
 listaH :: [String]
 listaH = ["@", "A", "C", "xxD", "E", "G", "J", "L"]
 
+{- ------------------------------------------------------------------ -}
