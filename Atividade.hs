@@ -50,7 +50,7 @@ listaH = ["@", "A", "C", "xxD", "E", "G", "J", "L"]
 
 {- ------------------------------------------------------------------ -}
 
-{- 2.1)	 Crie	 uma	 função	 que	 verifique	 se	 o	 tamanho	 de	 uma
+{- 2.2)	 Crie	 uma	 função	 que	 verifique	 se	 o	 tamanho	 de	 uma
 String	é	par	ou	não.	Use		Bool		como	retorno. -}
 
 tamanhoPar :: String -> Bool
