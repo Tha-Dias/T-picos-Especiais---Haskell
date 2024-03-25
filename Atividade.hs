@@ -50,3 +50,22 @@ listaH :: [String]
 listaH = ["@", "A", "C", "xxD", "E", "G", "J", "L"]
 
 {- ------------------------------------------------------------------ -}
+
+{- 2.5) Escreva a função head como composição de duas outras.  -}
+
+multiplica11 :: [Integer] 
+multiplica11 = iterate (*11) 1
+
+limitando :: [Integer]
+limitando = take 7 multiplica11
+
+pegandoHead :: Integer
+pegandoHead = head limitando
+
+{- -------------------------------------------------------------------- -}
+
+{- 2.6) Faça uma função que receba uma String e retorne True se esta for um palíndromo; caso contrário, False .  -}
+
+recebeString :: String -> Bool
+recebeString palavra = palavra == reverse palavra
+
