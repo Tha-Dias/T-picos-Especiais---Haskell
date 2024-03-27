@@ -1,4 +1,6 @@
 {- Atividades - Tópico Especiais -}
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Use /=" #-}
 
 somar :: Int -> Int -> Int
 somar x y = y + x
