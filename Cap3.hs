@@ -43,8 +43,8 @@ eliminadas de uma string passada por parâmetro usando list compreenshion -}
 {- --------------------------------------------------------------------------------- -}
 {- 3.7) Faça uma função que receba uma String e retorne True se esta for um palíndromo; caso contrário, False .  -}
 
-recebeString :: String -> Bool
-recebeString palavra1 = palavra1 == reverse palavra1
+recebeS :: String -> Bool
+recebeS palavra1 = palavra1 == reverse palavra1
 
 {- ----------------------------------------------------------------------------------- -}
 {- 3.7 -}
