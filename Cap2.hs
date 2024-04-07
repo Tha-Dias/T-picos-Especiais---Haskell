@@ -103,3 +103,5 @@ triplo	na	segunda,	o	quádruplo	na	terceira	e	o	quíntuplo	na	quarta. -}
 
 tuplaN :: Int -> (Int, Int, Int, Int)
 tuplaN x = (x * 2, x * 3, x * 4, x * 5)
+
+
